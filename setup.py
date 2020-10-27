@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-wechatwork-tool",  # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="iceiceice",
     author_email="597952291@qq.com",
     description="Wechatworktool is a Django app",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zxj17815/django-wechatwork-tool/",
+    url="https://github.com/zxj17815/wechatwork-tool",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
