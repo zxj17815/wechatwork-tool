@@ -1,6 +1,7 @@
 #### WeChatWorkTool
 Wechatworktool is a Django app,which is used to facilitate the internal application development of enterprise wechat and call enterprise wechat interface faster
 #### Quick start
+Install `pip install django-wechatwork-tool`
 1. Add "WeChatWorkTool" to your INSTALLED_APPS setting like this:
     ```python 
     # setting.py
