@@ -16,9 +16,13 @@ Install `pip install django-wechatwork-tool`
 4. Call where needed:
     ```python
     ...
-    from WeChatWorkTool.views import get_access_token
+    from WeChatWorkTool import tool
     ...
-    access_token = get_access_token("WeChatWorkAPP")
+    app=tool.CorpApp('sap')
+    print(app.app_info())
+    # Details of WeChatWork internal applications
+    print(app.get_user('FS0397'))
+    # Get employee details through employee ID
     ```
 5. Application verification and callback example
     ```python
